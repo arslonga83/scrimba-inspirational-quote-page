@@ -1,3 +1,27 @@
 body {
     margin: 0;
+    border: 0;
+    background: url('./images/nature.jpg') repeat center center fixed;
+    font-family: 'Inter', sans-serif;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.box {
+  background: #d2d2d2;
+  color: #060404;
+  width: 450px;
+  height: 150px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.author {
+    text-align: right;
+}
+
