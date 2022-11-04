@@ -1,4 +1,4 @@
-const quotes = [
+export const quotes = [
     {
         quote: "Today is your opportunity to build the tomorrow you want.",
         author: "Ken Poirot"
