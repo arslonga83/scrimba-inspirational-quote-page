@@ -1,4 +1,3 @@
-
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
 
@@ -11,7 +10,7 @@ async function getRandomQuote() {
 
 function printQuote(data) {
   quote.innerHTML = data.text;
-  author.innerHTML = data.author;
+  author.innerHTML = `- ${data.author}`;
 }
 
 getRandomQuote()
