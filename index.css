@@ -21,6 +21,16 @@ main {
   border-radius: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.box:hover {
+    background: #353735;
+    color: #eae3e3;
+}
+
 .author {
     text-align: right;
 }
